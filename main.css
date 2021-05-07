@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 3s ease-out;
+}
+
+body {
+    background-color: #000;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    height: 90vh;
+    width: 90vw;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px gold;
+}
+
+img.birthday {
+    margin-top: 3rem;
+    max-height: 50vh;
+}
+
+.name {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: lightseagreen;
+}
+
+.space {
+    height: 100px;
+}
